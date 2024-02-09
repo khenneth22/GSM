@@ -1,0 +1,42 @@
+#sample1 {
+  height: 150%;
+  width: 50%;
+  float: left;
+  margin-right: 90px;
+  margin-top: -40px;
+}
+#s1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#sample2 {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-right: 300px;
+  margin-top: -20px;
+}
+#s2 {
+  margin-left: 60px;
+  float: right;
+}
+#sample3 {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#s3 {
+  margin-left: 250px;
+}
+#sample4 {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 10px;
+}
+#s4 {
+  margin-left: 60px;
+}

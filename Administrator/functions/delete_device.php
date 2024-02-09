@@ -1,0 +1,13 @@
+<?php 
+require ("../../db_connection/myConn.php");
+
+$id = $_GET["id"];
+
+		$query="DELETE FROM `tbl_device_list` WHERE `_id` = $id";
+					if(mysqli_query($con_str,$query)){
+						echo '200';	
+					}else{
+						echo 'Device already exist!';
+					}
+	
+?> 
